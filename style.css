@@ -1,0 +1,259 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+i {
+    font-style: normal;
+    margin-right: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.headerBox {
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 80px;
+    height: 80px;
+    box-shadow: rgb(255 255 255 / 30%) 0px 4px 16px, rgb(17 17 26 / 15%) 0px 8px 32px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.headerItem, .name {
+    font-size: 24px;
+    height: 30px;
+}
+
+.inicio {
+    height: 860px;
+    display: flex;
+    flex-direction: column;
+}
+
+.picAndAbout {
+    display: flex;
+    max-width: 1000px;
+    margin: 80px auto;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myPic {
+    border-radius: 100%;
+}
+
+.about {
+    padding-left: 80px;
+    width: 500px;
+}
+
+.aboutMe {
+    color: green;
+    font-weight: bold;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 40px auto 0px auto;
+}
+
+.socialList {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.downButton {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: green;
+    margin-top: 60px;
+    color: green;
+    transition: 0.4s;
+}
+
+.downButton:hover {
+    background-color: green;
+    color: black;
+    border-color: black;
+}
+
+.fa-angle-down {
+    margin: 0px;
+}
+
+.tecnologias {
+    height: 860px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tecTitle {
+    padding-top: 80px;
+}
+
+.tec {
+    width: 40px;
+    height: 60px;
+    padding: 0px 10px;
+}
+
+.tecSquare {
+    width: 40px;
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.title {
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.tecList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60vw;
+    padding-top: 40px;
+}
+
+.front, .back {
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.frontList, .backList {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.item {
+    padding: 20px 0px;
+}
+
+.projetos {
+    height: 860px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projTitle {
+    padding-top: 40px;
+}
+
+.projectTitle {
+    margin-top: 0px;
+}
+
+.projectsList, .frontProj {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.projectsList {
+    width: 80%;
+    padding-top: 40px;
+}
+
+.frontProj {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 3%;
+    padding: 0px 30px 10px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 20px 20px;
+    margin: 10px 0px;
+}
+
+.subContainer {
+    display: flex;
+    align-items: center;
+}
+
+.print {
+    width: 150px;
+    height: auto;
+    padding-right: 20px;
+}
+
+.porjDescription {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.projButton {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    background-color:green;
+    color: white;
+    transition: 0.4s;
+}
+
+.projButton:hover {
+    border-color: green;
+    background-color:white;
+    color: green;
+}
