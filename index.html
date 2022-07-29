@@ -16,9 +16,15 @@
     <nav>
         <div class="headerBox">
             <ul class="name">Gustavo B. Haas</ul>
-            <ul class="headerItem">Sobre</ul>
-            <ul class="headerItem">Tecnologias</ul>
-            <ul class="headerItem">Projetos</ul>
+            <a href="#">
+                <ul class="headerItem">Sobre</ul>
+            </a>
+            <a href="#tecnologias">
+                <ul class="headerItem">Tecnologias</ul>
+            </a>
+            <a href="#projetos">
+                <ul class="headerItem">Projetos</ul>
+            </a>
         </div>
     </nav>
     </body>
@@ -49,12 +55,14 @@
                     </li>
                 </a>
             </ul>
-            <button class="downButton">
-                <i class="fa-solid fa-angle-down fa-2xl"></i>
-            </button>
+            <a href="#tecnologias">
+                <button class="downButton">
+                    <i class="fa-solid fa-angle-down fa-2xl"></i>
+                </button>
+            </a>
         </div>
     </div>
-    <div class="tecnologias">
+    <div class="tecnologias" id="tecnologias">
         <h1 class="tecTitle">Tecnologias</h1>
         <div class="tecList">
             <div class="front">
@@ -112,11 +120,13 @@
                 </ul>
             </div>
         </div>
-        <button class="downButton">
-            <i class="fa-solid fa-angle-down fa-2xl"></i>
-        </button>
+        <a href="#projetos">
+            <button class="downButton">
+                <i class="fa-solid fa-angle-down fa-2xl"></i>
+            </button>
+        </a>
     </div>
-    <div class="projetos">
+    <div class="projetos" id="projetos">
         <h1 class="projTitle">Projetos Front-End</h1>
         <div class="projectsList">
             <div class="left">
@@ -162,17 +172,35 @@
             <div class="right">
                 <ul class="frontProj">
                     <div class="container">
-                        <h2 class="projectTitle">Labirinto</h2>
+                        <h2 class="projectTitle">Kenzieshop</h2>
                         <div class="subContainer">
-                            <img src="./imagens/labirinto.png" class="print"/>
+                            <img src="./imagens/kenzieshop.png" class="print"/>
                             <div class="porjDescription">
-                                <p class="description">O labirinto foi uma atividade individual como parte do curso de desenvolvimento FullStack na Kenzie Academy
-                                                        Brasil. Projeto desenvolvido em HTML, CSS e Javascript. Página hospedada no Github Pages</p>
+                                <p class="description">A Kenzieshop foi uma atividade individual como parte do curso de desenvolvimento FullStack na Kenzie Academy
+                                                        Brasil. Projeto desenvolvido em HTML, CSS, React e Contex API. Página hospedada no Vercel</p>
                                 <div class="buttons">
-                                    <a target="_blank" href="">
+                                    <a target="_blank" href="https://react-entrega-s3-kenzishop-com-context-api-gustavohaas.vercel.app/">
                                         <button class="projButton">Visitar</button>
                                     </a>
-                                    <a target="_blank" href="" >
+                                    <a target="_blank" href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s3-kenzishop-com-context-api-gustavohaas" >
+                                        <button class="projButton">Repositório</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h2 class="projectTitle">Hamburgueria</h2>
+                        <div class="subContainer">
+                            <img src="./imagens/hamburgueria.png" class="print"/>
+                            <div class="porjDescription">
+                                <p class="description">A Hamburgueria foi uma atividade individual como parte do curso de desenvolvimento FullStack na Kenzie Academy
+                                                        Brasil. Projeto desenvolvido em HTML, CSS, Typescript e JSON Server. Página hospedada no Vercel</p>
+                                <div class="buttons">
+                                    <a target="_blank" href="https://hamburgueria-ts-ruddy.vercel.app/dashboard">
+                                        <button class="projButton">Visitar</button>
+                                    </a>
+                                    <a target="_blank" href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s5-hamburgueria-2-0-com-typescript-json-server-gustavohaas" >
                                         <button class="projButton">Repositório</button>
                                     </a>
                                 </div>
@@ -182,5 +210,91 @@
                 </ul>
             </div>
         </div>
+        <a href="#projetosBack">
+            <button class="downButton">
+                <i class="fa-solid fa-angle-down fa-2xl"></i>
+            </button>
+        </a>
+    </div>
+    <div class="projetos" id="projetosBack">
+        <h1 class="projTitle">Projetos Back-End</h1>
+        <div class="projectsList">
+            <div class="left">
+                <ul class="frontProj">
+                    <div class="container">
+                        <h2 class="projectTitle">Anime Stock</h2>
+                        <div class="subContainer">
+                            <img src="./imagens/flask.png" class="printBackEnd"/>
+                            <div class="porjDescription">
+                                <p class="description">O Anime Stock foi uma atividade individual como parte do curso de desenvolvimento FullStack na Kenzie Academy
+                                                        Brasil. Projeto desenvolvido em Flask, PostgreSQL, Blueprints, POO e Psycopg2. Banco de dados com CRUD 
+                                                        para tratar dados de animes lançados.</p>
+                                <div class="buttons">
+                                    <a target="_blank" href="https://github.com/Kenzie-Academy-Brasil-Developers/q3-sprint4-anime-stock-gustavohaas" >
+                                        <button class="projButton">Repositório</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h2 class="projectTitle">Leads</h2>
+                        <div class="subContainer">
+                            <img src="./imagens/flask.png" class="printBackEnd"/>
+                            <div class="porjDescription">
+                                <p class="description">O Leads foi uma atividade individual como parte do curso de desenvolvimento FullStack na Kenzie Academy
+                                                        Brasil. Projeto desenvolvido em Flask, SQLAlchemy, Blueprints, Migrations e Dataclass. Banco de dados com CRUD 
+                                                        para tratar dados de possíveis clientes de um empresa.</p>
+                                <div class="buttons">
+                                    <a target="_blank" href="https://github.com/Kenzie-Academy-Brasil-Developers/q3-sprint5-leads-gustavohaas" >
+                                        <button class="projButton">Repositório</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <div class="right">
+                <ul class="frontProj">
+                    <div class="container">
+                        <h2 class="projectTitle">Kenzie Pets</h2>
+                        <div class="subContainer">
+                            <img src="./imagens/django.png" class="printBackEnd"/>
+                            <div class="porjDescription">
+                                <p class="description">O Kenzie Pets foi uma atividade individual como parte do curso de desenvolvimento FullStack na Kenzie Academy
+                                                        Brasil. Projeto desenvolvido em Django. Banco de dados com CRUD para tratar dados de uma PetShop.</p>
+                                <div class="buttons">
+                                    <a target="_blank" href="https://github.com/Kenzie-Academy-Brasil-Developers/m5-sprint3-kenzie-pet-gustavohaas" >
+                                        <button class="projButton">Repositório</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h2 class="projectTitle">Kenzie Course</h2>
+                        <div class="subContainer">
+                            <img src="./imagens/nodejs.png" class="printBackEnd"/>
+                            <div class="porjDescription">
+                                <p class="description">O Kenzie Courses foi uma atividade individual como parte do curso de desenvolvimento FullStack na Kenzie Academy
+                                                        Brasil. Projeto desenvolvido em NodeJS, Express, TypeORM, Docker, Swagger, Nodemailer e Yup. Banco de dados com CRUD 
+                                                        para tratar dados de uma instituição da área da educação.</p>
+                                <div class="buttons">
+                                    <a target="_blank" href="https://github.com/Kenzie-Academy-Brasil-Developers/q4-sprint2-kenzie-courses-gustavohaas" >
+                                        <button class="projButton">Repositório</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <a href="#">
+        <button class="upButton">
+            <i class="fa-solid fa-angle-up fa-2xl"></i>
+        </button>
+        </a>
     </div>
 </body>
